@@ -50,6 +50,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -61,6 +63,23 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+# App icon generation (put your icon at assets/icon.png and run flutter pub run flutter_launcher_icons)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  remove_alpha_ios: true
+
+# Splash screen (place your splash image at assets/splash.png and run flutter pub run flutter_native_splash:create)
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash.png
+  android: true
+  ios: true
+  android_12:
+    image: assets/splash.png
+    color: "#FFFFFF"
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -1,0 +1,4 @@
+storePassword=kg590Hywe
+keyPassword=kg590Hywe
+keyAlias=release
+storeFile=android/app/release-key.jks

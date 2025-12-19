@@ -9,24 +9,6 @@
 - Подготовлены документы: `user_guide.md`, `privacy_policy.txt`, `changelog.md` (v1.0.0).
 - Инструкции и команды для сборок/публикации сведены ниже.
 
-## Что осталось сделать (перед сдачей)
-- Положить свои ассеты:
-  - `assets/icon.png` — иконка (квадрат, без фона или с фоном).
-  - `assets/splash.png` — логотип 1024×1024 с прозрачным фоном (сплэш).
-- Сгенерировать иконку/сплэш:
-  - `flutter pub get`
-  - `flutter pub run flutter_launcher_icons`
-  - `flutter pub run flutter_native_splash:create`
-- Обновить версию в `pubspec.yaml` (build number +1), при необходимости поменять `applicationId` в `android/app/build.gradle.kts`.
-- Прописать `supabaseUrl`/`supabaseAnonKey` (или через `--dart-define`).
-- Прогнать проверки и собрать релиз:
-  - `flutter analyze`
-  - `flutter test --coverage`
-  - `flutter run --profile` (Android/реальное устройство) + скрины DevTools
-  - `flutter build appbundle --release --analyze-size --target-platform android-arm64`
-  - (опц.) `flutter build apk --release --target-platform android-arm64 --analyze-size`
-- Скрины для отчёта: analyze, test, DevTools profile, Analyze Size отчёт, экран приложения, настройки иконки/сплэша, консоль сборки AAB/APK.
-- Политику (`privacy_policy.txt`) выложить на внешний URL и указать в магазине.
 
 ## Материалы в репо
 - `user_guide.md` — краткое руководство (можно в PDF).
@@ -39,13 +21,9 @@
 - Генерация ассетов:  
   `flutter pub run flutter_launcher_icons`  
   `flutter pub run flutter_native_splash:create`
-- Линт/тесты:  
-  `flutter analyze`  
-  `flutter test --coverage`
-- Профиль: `flutter run --profile` (на устройстве/эмуляторе Android)
 - Релизная сборка:  
   `flutter build appbundle --release --analyze-size --target-platform android-arm64`
-  (при необходимости APK: `flutter build apk --release --target-platform android-arm64 --analyze-size`)
+  `flutter build apk --release --target-platform android-arm64 --analyze-size`
 
 ## Чек‑лист перед публикацией
 - API level: target SDK ≥ 30 (по умолчанию в текущем Flutter SDK).

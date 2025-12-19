@@ -1,4 +1,8 @@
-# Счётчик калорий — отчёт по ПЗ №15 (публикация)
+# Отчёт по практическому занятию №11
+
+## Выполнил: Лазарев Г.С.
+
+## Группа: ЭФБО-10-23
 
 ## Задача работы
 Подготовить Flutter‑приложение к релизу: иконка, сплэш, подпись, релизные сборки (AAB/APK), документация (README/user guide/changelog/privacy policy), чек‑лист требований Play/App Store.
@@ -32,3 +36,5 @@
 - Иконка и сплэш применены.
 - Подпись настроена (key.properties + release-key.jks).
 - Скриншоты/описание/политика конфиденциальности готовы для консоли магазина.
+<img width="1087" height="146" alt="image" src="https://github.com/user-attachments/assets/1fe7cbbb-8b30-4656-bd2b-aa41f8aaff9f" />
+<img width="948" height="427" alt="image" src="https://github.com/user-attachments/assets/a686f457-f27e-41d0-99f3-5fe3ff186125" />

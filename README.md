@@ -29,12 +29,7 @@
   `flutter build appbundle --release --analyze-size --target-platform android-arm64`
   `flutter build apk --release --target-platform android-arm64 --analyze-size`
 
-## Чек‑лист перед публикацией
-- API level: target SDK ≥ 30 (по умолчанию в текущем Flutter SDK).
-- Нет лишних разрешений и debug‑логов.
-- Версия/код обновлены.
-- Иконка и сплэш применены.
-- Подпись настроена (key.properties + release-key.jks).
-- Скриншоты/описание/политика конфиденциальности готовы для консоли магазина.
+<img width="1313" height="399" alt="image" src="https://github.com/user-attachments/assets/4fd38ac9-ed06-4f0d-b112-f542ed88fd25" />
+
 <img width="1087" height="146" alt="image" src="https://github.com/user-attachments/assets/1fe7cbbb-8b30-4656-bd2b-aa41f8aaff9f" />
 <img width="948" height="427" alt="image" src="https://github.com/user-attachments/assets/a686f457-f27e-41d0-99f3-5fe3ff186125" />
